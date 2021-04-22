@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 Download inertial data of C-MHAD
-from [here](https://drive.google.com/file/d/1nXnlT0U68v-1OOPdjke3bMfIbL5CSPaq/view?usp=sharing) (or
+directly from [here](https://drive.google.com/file/d/1nXnlT0U68v-1OOPdjke3bMfIbL5CSPaq/view?usp=sharing) (or
 from [C-MHAD project page](https://personal.utdallas.edu/~kehtar/C-MHAD.html)).
 
 ## Training
@@ -39,18 +39,18 @@ python main.py --dataset CMHAD_Gesture
 
 ## Testing
 
-Please download [checkpoints](https://drive.google.com/file/d/1bUvDxNh0DUahvcOmo-wbcepWS1VLqUqm/view?usp=sharing) and unzip it under the main directory.
+Please download [checkpoints](https://drive.google.com/file/d/1WoMnPo5lmWBlIHgm-I20aqsEqnLuHGaP/view?usp=sharing) and unzip it under the main directory.
 
 Run the pretrained model on Transition Movements part of C-MHAD:
 
 ```bash
-python main.py --dataset CMHAD_Transition --test_only --test_checkpoint ./checkpoints/MMSTCN_CMHAD_Transition.tar
+python main.py --dataset CMHAD_Transition --test_only --test_checkpoint ./checkpoints/MSSTCN_CMHAD_Transition.tar
 ```
 
 Run the pretrained model on Smart TV Gesture part part of C-MHAD:
 
 ```bash
-python main.py --dataset CMHAD_Gesture --test_only --test_checkpoint ./checkpoints/MMSTCN_CMHAD_Gesture.tar
+python main.py --dataset CMHAD_Gesture --test_only --test_checkpoint ./checkpoints/MSSTCN_CMHAD_Gesture.tar
 ```
 
 ## Citing
