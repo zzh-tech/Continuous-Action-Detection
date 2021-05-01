@@ -58,14 +58,11 @@ python main.py --dataset CMHAD_Gesture --test_only --test_checkpoint ./checkpoin
 If you find our code is useful for you, please consider citing:
 
 ```bibtex
-@inproceedings{zhong2021multistream,
+@article{zhong2021multistream,
   title={Multistream Temporal Convolutional Network for Correct/Incorrect Patient Transfer Action Detection Using Body Sensor Network},
   author={Zhong, Zhihang and Lin, Chingszu and Kanai-Pak, Masako and Maeda, Jukai and Kitajima, Yasuko and Nakamura, Mitsuhiro and Kuwahara, Noriaki and Ogata, Taiki and Ota, Jun},
   journal={IEEE Internet of Things Journal},
-  volume={0},
-  number={0},
-  pages={0--0},
   year={2021},
-  organization={IEEE}
+  publisher={IEEE}
 }
 ```
